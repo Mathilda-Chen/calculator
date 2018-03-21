@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.box {
+    width: 365px;
+    height: 420px;
+    border: 1px solid #ccc;
+    padding: 40px 4px 20px 21px;
+    border-radius: 10px;
+    background: url(../img/bgc1.png) no-repeat -204px -59px;
+    margin: 100px auto;
+    position: relative;
+}
+.box .red {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: url(../img/bgc.png) no-repeat -224px -73px;
+    top: 14px;
+    left: 20px;
+}
+.box .yellow {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: url(../img/bgc.png) no-repeat -244px -73px;
+    top: 14px;
+    left: 40px;
+    display: none;
+}
+.box .green {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: url(../img/bgc.png) no-repeat -264px -73px;
+    top: 14px;
+    left: 60px;
+    display: none;
+}
+.box .num {
+    width: 345px;
+    height: 70px;
+    margin: 0 17px 10px 0px;
+    padding: 10px 0 0 0;
+    border: 0;
+    background: url(../img/input.png) no-repeat -225px -100px;
+    font: 700 40px/60px Arial;
+    color: #fff;
+    text-align: right;
+}
+.box .formula {
+    position: absolute;
+    top: 41px;
+    width: 344px;
+    border: 0;
+    left: 22px;
+    background: #808080;
+    font:700 12px/1.5 Arial;
+    color: #fff;
+    text-align:right;
+}
+.box ul {
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    zoom: 1;
+}
+.box ul li {
+    float: left;
+    width: 73px;
+    height: 40px;
+    margin: 13px 15px 0 0;
+/*    border: 1px solid red;*/
+    text-indent: -999999em;
+
+}
+.box ul li.btn-2 {
+    position: absolute;
+    top: 220px;
+    left: 270px;
+    height: 95px;
+}
+.box ul li.btn-3 {
+        width: 162px;
+}
+.box ul li a {
+    display: block;
+    width: 73px;
+    height: 35px;
+}
+.box ul li.btn-2 a {
+    height: 80px;
+}
+.box ul li.btn-3 a {
+    width: 162px;
+}
+.box ul li a:hover {
+    border: 1px solid #ccc;
+}
+
